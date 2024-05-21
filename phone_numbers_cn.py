@@ -2,7 +2,7 @@ from tqdm import tqdm
 
 # 生成所有可能的手机号码
 def generate_all_phone_numbers():
-    prefixes = ['130', '131', '132', '133', '134', '135', '136', '137', '138', '139']
+    prefixes = ['130', '131', '132', '133', '134', '135', '136', '137', '138', '139'] #号段自己添加
     for prefix in tqdm(prefixes, desc="Generating phone numbers"):
         phone_numbers = []
         for i in range(100000000):
